@@ -117,7 +117,7 @@ ggplot() +
   geom_point(aes(2, 1), size = 10) + 
   geom_point(aes(3, 1), size = 20, shape = 17) + 
   geom_point(aes(4, 1), size = 20, colour = "blue") + 
-  scale_x_continuous(NULL, limits = c(0.5, 4.5), labels = NULL) + 
+  scale_x_continuous("test",limits = c(1,4),labels = c('t1','2','t3','t4')) + 
   scale_y_continuous(NULL, limits = c(0.9, 1.1), labels = NULL) + 
   theme(aspect.ratio = 1/3)
 ```
